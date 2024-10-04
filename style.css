@@ -1,0 +1,77 @@
+button a {
+    text-decoration: none;
+    color: green;
+}
+
+button a:hover {
+    color: white;
+}
+
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-left: 10px;
+}
+
+.user-profile {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user-profile h2 {
+    text-align: center;
+}
+
+.user-profile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-profile li {
+    margin-bottom: 10px;
+}
+
+.user-profile li strong {
+    font-weight: bold;
+}
+
+#user-profiles {
+    margin-left: 10px;
+}
+
+@media (min-width: 1200px) {
+    #user-profiles {
+        margin-left: 250px;
+    }
+
+    .container h1 {
+        margin-left: 250px;
+    }
+
+
+
+
+}
