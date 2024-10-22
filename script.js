@@ -54,6 +54,8 @@ async function getData() {
     localStorage.setItem('userData', JSON.stringify(userDataArray))
 
     // console.log(localStorage.getItem('userData'));
+
+    window.location.href = 'second.html';
     };
     // console.log(userDataArray);
 
